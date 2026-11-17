@@ -32,9 +32,7 @@ export default function AppShell() {
       </div>
       <header className="workspace-header">
         <NavLink className="brand" to="/" aria-label="FiscEye home">
-          <span className="brand-mark">
-            f<span>.</span>
-          </span>
+          <img className="brand-mark" src="/favicon.svg" alt="" />
           <span className="brand-name">
             FiscEye<span>.</span>
             <small>GLOBAL FINANCE, CONNECTED</small>
@@ -112,7 +110,7 @@ export default function AppShell() {
             <span className="orbit-label orbit-label-top">PEOPLE</span>
             <span className="orbit-label orbit-label-bottom">MARKETS</span>
             <span className="orbit-dot" />
-            <span className="orbit-center">f.</span>
+            <span className="orbit-center"><img src="/favicon.svg" alt="" /></span>
           </div>
           <span className="hero-index" aria-hidden="true">
             01 / GLOBAL PERSPECTIVE

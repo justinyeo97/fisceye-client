@@ -70,16 +70,13 @@ button {
   gap: 12px;
 }
 .brand-mark {
-  background: var(--blue);
+  display: block;
+  flex-shrink: 0;
+  background: transparent;
   box-shadow: none;
-  border-radius: 0;
+  border-radius: 12px;
   width: 44px;
   height: 44px;
-  font: 900 34px Arial;
-  letter-spacing: -4px;
-}
-.brand-mark > span {
-  color: #a8caff;
 }
 .brand-name {
   font: 800 27px Arial;
@@ -306,6 +303,12 @@ button {
   font: 900 100px Arial;
   letter-spacing: -9px;
   color: var(--blue);
+}
+.orbit-center img {
+  width: 128px;
+  max-width: 45%;
+  height: auto;
+  border-radius: 25%;
 }
 .orbit-label {
   position: absolute;

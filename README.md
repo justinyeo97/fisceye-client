@@ -1,6 +1,6 @@
 ﻿# FiscEye
 
-**Live website:** https://splitflow-finance.vercel.app
+**Live website:** https://fisceye.vercel.app
 
 **A finance and performance workspace for sales agencies operating across countries.**
 

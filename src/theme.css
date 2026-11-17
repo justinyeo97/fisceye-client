@@ -83,7 +83,7 @@
 }
 
 [data-theme="dark"] :is(.utility-strip, .primary-button, .signout-button,
-  .brand-mark, .hero-action) {
+  .hero-action) {
   background: #2864bf;
   color: #fff;
 }

@@ -58,7 +58,7 @@ export default function SignInPage() {
       <ThemeToggle />
       <div className="auth-panel">
         <a className="brand auth-brand" href="/">
-          <span className="brand-mark">F</span>
+          <img className="brand-mark" src="/favicon.svg" alt="" />
           <span className="brand-name">
             FiscEye<span>.</span>
             <small>FINANCE OPERATIONS</small>
