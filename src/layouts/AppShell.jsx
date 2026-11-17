@@ -26,17 +26,17 @@ export default function AppShell() {
       <div className="utility-strip">
         <span>ONE WORKSPACE. EVERY MARKET.</span>
         <span>
-          {profile?.company?.name || profile?.company_name || "Splitflow"} /
+          {profile?.company?.name || profile?.company_name || "FiscEye"} /
           Finance operations
         </span>
       </div>
       <header className="workspace-header">
-        <NavLink className="brand" to="/" aria-label="Splitflow home">
+        <NavLink className="brand" to="/" aria-label="FiscEye home">
           <span className="brand-mark">
-            s<span>.</span>
+            f<span>.</span>
           </span>
           <span className="brand-name">
-            splitflow<span>.</span>
+            FiscEye<span>.</span>
             <small>GLOBAL FINANCE, CONNECTED</small>
           </span>
         </NavLink>
@@ -112,7 +112,7 @@ export default function AppShell() {
             <span className="orbit-label orbit-label-top">PEOPLE</span>
             <span className="orbit-label orbit-label-bottom">MARKETS</span>
             <span className="orbit-dot" />
-            <span className="orbit-center">s.</span>
+            <span className="orbit-center">f.</span>
           </div>
           <span className="hero-index" aria-hidden="true">
             01 / GLOBAL PERSPECTIVE
@@ -124,7 +124,7 @@ export default function AppShell() {
       </main>
       <footer className="workspace-footer">
         <NavLink to="/" className="footer-wordmark">
-          splitflow<span>.</span>
+          FiscEye<span>.</span>
         </NavLink>
         <span>
           Centralized costs. Transparent allocations.

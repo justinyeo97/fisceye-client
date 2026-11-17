@@ -58,9 +58,9 @@ export default function SignInPage() {
       <ThemeToggle />
       <div className="auth-panel">
         <a className="brand auth-brand" href="/">
-          <span className="brand-mark">S</span>
+          <span className="brand-mark">F</span>
           <span className="brand-name">
-            splitflow<span>.</span>
+            FiscEye<span>.</span>
             <small>FINANCE OPERATIONS</small>
           </span>
         </a>
@@ -69,7 +69,7 @@ export default function SignInPage() {
           {mode === "login" ? "Welcome back" : "Create your account"}
         </ProximityHeading>
         <p className="auth-intro">
-          Sign in to your Splitflow finance workspace.
+          Sign in to your FiscEye finance workspace.
         </p>
         {authError && (
           <div className="auth-alert" role="alert">
@@ -153,7 +153,7 @@ export default function SignInPage() {
           <span className="google-mark">G</span>Continue with Google
         </button>
         <p className="auth-switch">
-          {mode === "login" ? "New to Splitflow?" : "Already have an account?"}{" "}
+          {mode === "login" ? "New to FiscEye?" : "Already have an account?"}{" "}
           <button
             onClick={() => {
               setMode(mode === "login" ? "signup" : "login");

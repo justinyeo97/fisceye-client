@@ -1,8 +1,8 @@
-# Splitflow wireframe
+# FiscEye wireframe
 
 [view the wireframe in Canva](https://canva.link/5230o2wy4t1j867).
 
-The nine-page wireframe explains the website's main screens and user journeys for someone seeing Splitflow for the first time:
+The nine-page wireframe explains the website's main screens and user journeys for someone seeing FiscEye for the first time:
 
 1. Product overview and user flow
 2. Sign-in and invited-company selection

@@ -1,10 +1,10 @@
-# Splitflow: Product and System Architecture
+# FiscEye: Product and System Architecture
 
 Updated: 2 November 2026
 
 ## 1. Product purpose
 
-Splitflow helps sales agencies understand the financial contribution of their consultants and regional teams. It brings revenue, salaries and operating expenses into a shared workspace so that management can assess performance, Finance can allocate costs to countries, and headquarters can review consolidated results in the company's home currency.
+FiscEye helps sales agencies understand the financial contribution of their consultants and regional teams. It brings revenue, salaries and operating expenses into a shared workspace so that management can assess performance, Finance can allocate costs to countries, and headquarters can review consolidated results in the company's home currency.
 
 The product answers three core questions:
 
@@ -79,7 +79,7 @@ Payroll expenses already represented by salary history must be marked as payroll
 
 ### Currency views
 
-Splitflow maintains two complementary views:
+FiscEye maintains two complementary views:
 
 - **Regional allocation:** Expenses are valued in the attributed country's reporting currency for Finance.
 - **Headquarters reporting:** Revenue, operating expenses and salary costs are valued in the company's configured home currency for comparison and consolidation.
